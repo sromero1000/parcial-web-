@@ -2,7 +2,6 @@ import React from 'react'
 import {nanoid} from 'nanoid'
 import {firebase} from '../firebase'
 
-
 const Formulario = () => {
     const [nombres, setnombres] = React.useState('')
     const [apellidos, setapellidos] = React.useState('')
